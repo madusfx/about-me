@@ -1,0 +1,53 @@
+:root {
+  list-style: none;
+  margin: 0;
+	padding: 5rem;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #8d7199;
+}
+
+.title {
+  text-align: center;
+  color: #fefefe;
+}
+
+.button {
+  border: 0;
+  border-radius: 0.25rem;
+  background: #8d7199;
+  color: #fefefe;
+  padding: 0.4375rem;
+}
+
+.button:hover{
+  cursor: pointer;
+}
+
+.buttonTitle {
+  display: flex;
+  flex-direction: column;
+  color: #8d7199;
+  text-align: center;
+}
+
+.list {
+  background-color: #fefefe;
+  padding: 1rem;
+  box-shadow: 0rem 0rem 0.75rem rgba(0, 0, 0, 0.05);
+  border-bottom: 0.625rem solid #66658f;
+  border-radius: 0.625rem;
+  height: 60%;
+  width: 30%;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listItem{
+  color: #8d7199;
+}
